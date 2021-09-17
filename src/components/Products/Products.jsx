@@ -1,6 +1,8 @@
 import React from 'react'
 import { Grid } from '@material-ui/core';
 
+import Product from './Product/Product'; 
+
 const products = [
     {
         id: 1,
@@ -50,3 +52,4 @@ const Products = () => {
 
     )
 }
+export default Products;
